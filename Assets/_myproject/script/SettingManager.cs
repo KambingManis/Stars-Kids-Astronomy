@@ -94,4 +94,8 @@ public class SettingManager : MonoBehaviour {
 		PlayerPrefs.SetInt("muteSFX", muteSFX);
 		PlayerPrefs.SetInt("muteBGM", muteBGM);
 	}
+
+	public void OpenLink(string link) {
+        Application.OpenURL(link);
+    }
 }
