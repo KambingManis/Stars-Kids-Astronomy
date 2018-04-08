@@ -36,15 +36,6 @@ public class SettingManager : MonoBehaviour {
 		AssignBGMSFXStatus();
 	}
 
-	void Update(){
-		if (Input.GetKeyDown(KeyCode.Escape)){
-			Application.Quit(); 
-			// Debug.Log("aplikasi keluar");
-		}
-			
- 	}
-
-
     //method untuk mengganti status sfx on / off
     public void SwitchSFXButton()
 	{
